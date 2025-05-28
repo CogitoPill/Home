@@ -2,7 +2,7 @@
 layout: post
 title: "Post di prova"
 date: 2025-05-28 22:00:00 +0200
-categories: test blog
+categories:
 tags: [jekyll, github-pages, prova]
 ---
 
