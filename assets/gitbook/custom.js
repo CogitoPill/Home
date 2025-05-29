@@ -26,4 +26,17 @@ if (document.readyState === "loading") {
     // `DOMContentLoaded` has already fired
     bind_footnote_links();
 }
+function toggleTheme() {
+    const root = document.documentElement;
+    const current = root.getAttribute("data-theme");
+    const next = current === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    localStorage.setItem("theme", next);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    const saved = localStorage.getItem("theme") || "light";
+    document.documentElement.setAttribute("data-theme", saved);
+});
+
 
