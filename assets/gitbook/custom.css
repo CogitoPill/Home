@@ -278,3 +278,13 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
 }
+
+/* Nasconde tutti i bottoni per font settings */
+.gitbook-plugin-fontsettings,
+button.fontsettings-toggle,
+.fontsettings-button,
+button#fontsettings-button,
+button.fontsettings {
+    display: none !important;
+}
+
