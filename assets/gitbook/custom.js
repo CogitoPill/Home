@@ -34,9 +34,20 @@ function toggleTheme() {
     localStorage.setItem("theme", next);
 }
 
+
+
 document.addEventListener("DOMContentLoaded", () => {
     const saved = localStorage.getItem("theme") || "light";
     document.documentElement.setAttribute("data-theme", saved);
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+    const saved = localStorage.getItem("theme") || "light";
+    document.documentElement.setAttribute("data-theme", saved);
+
+    const toggleBtn = document.getElementById("theme-toggle");
+    if (toggleBtn) {
+        toggleBtn.addEventListener("click", toggleTheme);
+    }
+});
 
