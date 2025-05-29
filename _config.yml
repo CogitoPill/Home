@@ -1,7 +1,7 @@
 # Configurations
 title:            CogitoPill
-longtitle:        CogitoPill
-author:           Cogito Pill
+#longtitle:       
+#author:          
 email:            cogitopill@proton.me
 description: >
   Build Jekyll site with the GitBook style.
