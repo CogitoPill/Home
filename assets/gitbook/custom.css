@@ -286,14 +286,15 @@ button.fontsettings {
 }
 
 html[data-theme="light"] {
-    background-color: var(--background-light);
-    color: var(--text-light);
+    --bg-color: var(--background-light);
+    --text-color: var(--text-light);
 }
 
 html[data-theme="dark"] {
-    background-color: var(--background-dark);
-    color: var(--text-dark);
+    --bg-color: var(--background-dark);
+    --text-color: var(--text-dark);
 }
+
 
 .site-logo {
   position: fixed;
