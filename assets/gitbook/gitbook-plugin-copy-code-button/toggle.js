@@ -51,7 +51,7 @@ require(["gitbook", "jquery"], function (gitbook, $) {
         }
     }
 
-    gitbook.events.bind("page.change", function () {
+   /* gitbook.events.bind("page.change", function () {
         $("pre").each(function () {
             $(this).css("position", "relative");
 
@@ -70,7 +70,7 @@ require(["gitbook", "jquery"], function (gitbook, $) {
                     } else {
                         buttonNewText = "Unable to copy";
                         selectElementText($codeContainer.get(0));
-                    }
+                    }  */
 
                     $(this).text(buttonNewText);
                     var that = this;
