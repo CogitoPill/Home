@@ -67,7 +67,7 @@
     };
 
 
-
+*/
     gitbook.events.bind('start', function(e, config) {
         var opts = config.sharing;
 
@@ -117,4 +117,3 @@
 });
 
 
-*/
