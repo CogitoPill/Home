@@ -1,4 +1,5 @@
-/*require(['gitbook', 'jquery'], function(gitbook, $) {
+/*
+require(['gitbook', 'jquery'], function(gitbook, $) {
     var SITES = {
         'facebook': {
             'label': 'Facebook',
@@ -65,40 +66,38 @@
             }
         }
     };
-
-
-*/
+    */
     gitbook.events.bind('start', function(e, config) {
         var opts = config.sharing;
 
-        // Create dropdown menu
+        // Create dropdown menu from enabled sites
         var menu = $.map(opts.all, function(id) {
             var site = SITES[id];
-
+            if (!site) return null;
             return {
                 text: site.label,
                 onClick: site.onClick
             };
-        });
+        }).filter(function(x){return x !== null;});
 
-        // Create main button with dropdown
+        // Create main share button with dropdown if there are sites
         if (menu.length > 0) {
             gitbook.toolbar.createButton({
                 icon: 'fa fa-share-alt',
                 label: 'Share',
                 position: 'right',
-                dropdown: [menu]
+                dropdown: menu
             });
         }
 
-        // Direct actions to share
+        // Create direct share buttons for each enabled site
         $.each(SITES, function(sideId, site) {
-            if (!opts[sideId]) return;
+            if (!opts[sideId]) return;  // Skip if not enabled in config
 
             var onClick = site.onClick;
-            
-            // override target link with provided link
-            var side_link = opts[`${sideId}_link`]
+
+            // Override target link with provided link if available in config
+            var side_link = opts[sideId + '_link'];
             if (side_link !== undefined && side_link !== "") {
                 onClick = function(e) {
                     e.preventDefault();
@@ -108,11 +107,10 @@
 
             gitbook.toolbar.createButton({
                 icon: site.icon,
-                label: site.text,
+                label: site.label,
                 position: 'right',
                 onClick: onClick
             });
         });
+    });
 });
-
-
