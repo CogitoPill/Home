@@ -1,4 +1,4 @@
-require(['gitbook', 'jquery'], function(gitbook, $) {
+/*require(['gitbook', 'jquery'], function(gitbook, $) {
     var SITES = {
         'facebook': {
             'label': 'Facebook',
@@ -115,3 +115,6 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         });
     });
 });
+
+
+*/
