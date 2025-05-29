@@ -51,7 +51,7 @@ require(["gitbook", "jquery"], function (gitbook, $) {
         }
     }
 
-   gitbook.events.bind("page.change", function () {
+   /* gitbook.events.bind("page.change", function () {
         $("pre").each(function () {
             $(this).css("position", "relative");
 
@@ -78,7 +78,7 @@ require(["gitbook", "jquery"], function (gitbook, $) {
                         $(that).text("Copy");
                     }, 2000);
                 }
-            });
+            }); */
 
             $(this).append($copyCodeButton);
         });
