@@ -4,6 +4,6 @@ title: CogitoPill
 permalink: /
 ---
 
-# Welcome on **CogitoPill** 🧠💊
+Testo Home di prova
 
 
