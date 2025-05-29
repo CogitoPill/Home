@@ -84,3 +84,20 @@ require(["gitbook", "jquery"], function (gitbook, $) {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  const button = document.getElementById("theme-toggle");
+  const darkClass = "theme-dark";
+
+  // Load from localStorage
+  if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add(darkClass);
+  }
+
+  button?.addEventListener("click", function () {
+    document.body.classList.toggle(darkClass);
+    const isDark = document.body.classList.contains(darkClass);
+    localStorage.setItem("theme", isDark ? "dark" : "light");
+  });
+});
+
