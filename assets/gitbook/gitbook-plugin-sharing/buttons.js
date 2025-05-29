@@ -113,7 +113,6 @@
                 onClick: onClick
             });
         });
-    });
 });
 
 
