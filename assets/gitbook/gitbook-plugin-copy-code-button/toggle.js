@@ -85,7 +85,7 @@ require(["gitbook", "jquery"], function (gitbook, $) {
     });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+/*document.addEventListener("DOMContentLoaded", function() {
   const button = document.getElementById("theme-toggle");
   const darkClass = "theme-dark";
 
@@ -101,3 +101,4 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+*/
