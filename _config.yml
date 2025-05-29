@@ -72,3 +72,7 @@ plugins:
   - jekyll-feed
   - jekyll-readme-index
   - jemoji
+
+gitbook:
+  plugins:
+    - "-fontsettings"
