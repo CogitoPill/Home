@@ -361,5 +361,18 @@ html[data-theme="dark"] {
   background-color: #444;
 }
 
+.post-preview {
+  background: #f9f9f9;
+  border-left: 4px solid #007BFF;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+.post-preview h2 {
+  margin-top: 0;
+}
+.post-preview p {
+  color: #555;
+}
 
 
