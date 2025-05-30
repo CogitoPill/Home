@@ -79,4 +79,4 @@ gitbook:
 
 gitbook:
   plugins:
-    - "gitbook-plugin-expandable-chapters-small2"
+    - gitbook-plugin-expandable-chapters-small2
