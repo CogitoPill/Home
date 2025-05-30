@@ -405,3 +405,8 @@ html[data-theme="dark"] {
   }
 }
 
+@media (max-width: 768px) {
+  .nav-links-shiftable {
+    top: 5px; /* oppure 0px, regola in base alla posizione ideale */
+  }
+}
