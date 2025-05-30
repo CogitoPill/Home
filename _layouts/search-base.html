@@ -29,21 +29,15 @@
                     </h1> 
                 </div> -->
 
-<div class="book-header" role="navigation" style="position: fixed; top: 0; width: 100%; z-index: 1000; background: #f5f5f5; display: flex; align-items: center; height: 50px;">
-
-    <!-- Spazio a sinistra per il tasto hamburger -->
-    <div style="width: 50px;"></div>
-
-    <!-- Link centrati -->
-    <div style="flex: 1; text-align: center;">
-        <a href="{{ site.baseurl }}/" style="margin: 0 15px; text-decoration: none; font-weight: bold; color: #333;">Home</a>
-        <a href="{{ site.baseurl }}/contact" style="margin: 0 15px; text-decoration: none; font-weight: bold; color: #333;">Contact</a>
-        <a href="{{ site.baseurl }}/about" style="margin: 0 15px; text-decoration: none; font-weight: bold; color: #333;">About</a>
+<div class="book-header" role="navigation" style="position: relative; height: 50px;">
+    <!-- Container per i link centrati -->
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        <a href="{{ site.baseurl }}/" style="margin: 0 10px; text-decoration: none; font-weight: bold; color: #333;">Home</a>
+        <a href="{{ site.baseurl }}/contact" style="margin: 0 10px; text-decoration: none; font-weight: bold; color: #333;">Contact</a>
+        <a href="{{ site.baseurl }}/about" style="margin: 0 10px; text-decoration: none; font-weight: bold; color: #333;">About</a>
     </div>
-
-    <!-- Spazio a destra vuoto per bilanciare -->
-    <div style="width: 50px;"></div>
 </div>
+
 
 
 
