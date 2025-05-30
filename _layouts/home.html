@@ -16,7 +16,7 @@
             {%- include toc-date.html -%}
 
             <div class="book-body">
-                <div class="book-header" role="navigation">
+              <!--  <div class="book-header" role="navigation">
                    <div style="display: flex; justify-content: space-between; align-items: center;">
     <h1 style="margin: 0;">
         <i class="fa fa-circle-o-notch fa-spin"></i>
@@ -27,21 +27,36 @@
         {% endif %}
     </h1> 
 
-    <div style="display: flex; gap: 10px; align-items: center;">
-        <!-- Tasto Buy Me a Coffee -->
+    
+</div>
+
+                </div> -->
+
+                <div class="book-header" role="navigation" style="position: relative; height: 50px;">
+    <!-- Container per i link centrati -->
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        <div class="nav-links-shiftable">
+        <a href="{{ site.baseurl }}/pages/contact" style="margin: 0 10px; text-decoration: none; font-weight: bold; color: #333;" class="nav-link">Contact</a>
+        <a href="{{ site.baseurl }}/" style="margin: 0 15px; text-decoration: none; font-weight: bold; color: #333;" class="nav-link">Home</a>
+        <a href="{{ site.baseurl }}/pages/about" style="margin: 0 10px; text-decoration: none; font-weight: bold; color: #333;" class="nav-link">About</a>
+        </div>
+    </div>
+         <div style="display: flex; gap: 10px; align-items: center;">
+        
         <a href="https://www.buymeacoffee.com/tuo_username" target="_blank" rel="noopener" style="background-color:#FFDD00; color:#000; padding:6px 12px; border-radius:5px; font-weight:bold; text-decoration:none;">
             ☕ Buy me a coffee
         </a>
 
-        <!-- Tasto tema -->
         <button id="theme-toggle" onclick="toggleTheme()" style="padding:6px 12px; border-radius:5px; background:#444; color:white; border:none; cursor:pointer;">
             🌓 Theme
         </button>
-    </div>
+    </div>           
 </div>
 
-                </div>
 
+
+
+                
                 <div class="body-inner">
                     {%- include body.html -%}
 
