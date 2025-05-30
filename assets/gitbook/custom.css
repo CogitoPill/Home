@@ -378,7 +378,7 @@ html[data-theme="dark"] {
 /* Contenitore dei link centrati */
 .nav-links-shiftable {
   position: absolute;
-  top: 0px;
+  top: -5px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
