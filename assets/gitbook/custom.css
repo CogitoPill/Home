@@ -375,4 +375,33 @@ html[data-theme="dark"] {
   color: #555;
 }
 
+/* Contenitore dei link centrati */
+.nav-links-shiftable {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+  z-index: 10;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Quando il menu è aperto (GitBook usa "with-summary") */
+.book.with-summary .nav-links-shiftable {
+  transform: translateX(calc(-50% + 150px)); /* Sposta i link verso destra di 150px */
+}
+
+@media (max-width: 768px) {
+  .nav-links-shiftable {
+    font-size: 14px;
+    gap: 15px;
+  }
+}
 
