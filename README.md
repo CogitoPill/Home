@@ -6,11 +6,15 @@ permalink: /
 
 Testo Home di prova
 
+
+
+
+
 ### Ultimi articoli
 
 <div class="post-preview">
-  <a href="_posts/2025-05-29-post1.md">
-    <h2 style="color: #007BFF;">🔹 Il mio primo articolo</h2>
+  <a href="test/2025-05-29-post1.md">
+    <h3 style="color: #007BFF;">Il mio primo articolo</h3>
   </a>
   <p>Questo è un riepilogo del contenuto...</p>
 </div>
