@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CogitoPill
+title: Home
 permalink: /
 ---
 
