@@ -76,3 +76,7 @@ plugins:
 gitbook:
   plugins:
     - "-fontsettings"
+
+gitbook:
+  plugins:
+    - "gitbook-plugin-expandable-chapters-small2"
