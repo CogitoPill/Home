@@ -391,6 +391,17 @@ html[data-theme="dark"] {
   color: #333;
   font-weight: bold;
   font-size: 16px;
+      background-color: #007BFF; /* colore blu */
+      color: white;              /* testo bianco */
+      padding: 10px 20px;        /* spazio interno */
+      border: none;              /* senza bordo visibile */
+      border-radius: 25px;       /* bordi arrotondati */
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;           /* puntatore a mano */
+      text-decoration: none;     /* niente sottolineatura se <a> */
+      display: inline-block;
+      transition: background 0.3s ease;
 }
 
 /* Quando il menu è aperto (GitBook usa "with-summary") */
