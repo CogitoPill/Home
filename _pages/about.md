@@ -1,10 +1,13 @@
 ---
 title: About
-author: Tao He
-date: 2022-02-04
-category: Jekyll
+# author: 
+date: 2025-05-31
+#category: 
 layout: post
 ---
 
-This is an about page.
+We’re three curious teenagers who started this blog to share our passions and insights with the world. 
+We hope to be helpful to some and engaging to others. 
+If you’re looking for fresh perspectives or eager to explore new topics, you’re in the right place. 
+**Take a pill of knowledge!**
 
