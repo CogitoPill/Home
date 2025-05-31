@@ -32,26 +32,29 @@
 
                 </div> -->
 
-                <div class="book-header" role="navigation" style="position: relative; height: 50px;">
-    <!-- Container per i link centrati -->
-    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-        <div class="nav-links-shiftable">
-        <a href="{{ site.baseurl }}/pages/contact" class="nav-link rounded-button">Contact</a>
-        <a href="{{ site.baseurl }}/" class="nav-link rounded-button">Home</a>
-        <a href="{{ site.baseurl }}/pages/about"  class="nav-link rounded-button">About</a>
-        </div>
-    </div>
-         <div style="display: flex; gap: 10px; align-items: center;">
-        
-        <a href="https://www.buymeacoffee.com/tuo_username" target="_blank" rel="noopener" style="background-color:#FFDD00; color:#000; padding:6px 12px; border-radius:5px; font-weight:bold; text-decoration:none;">
-            ☕ Buy me a coffee
-        </a>
+ <div class="book-header" role="navigation">
+  <div class="header-container">
+    
+    <!-- Sinistra: Hamburger menu (già incluso da GitBook probabilmente) -->
+    <div class="left-slot"></div>
 
-       <!-- <button id="theme-toggle" onclick="toggleTheme()" style="padding:6px 12px; border-radius:5px; background:#444; color:white; border:none; cursor:pointer;">
-            🌓 Theme
-        </button> -->
-    </div>           
+    <!-- Centro: Navigation Links -->
+    <div class="center-slot nav-links-shiftable">
+      <a href="{{ site.baseurl }}/pages/contact" class="nav-link rounded-button">Contact</a>
+      <a href="{{ site.baseurl }}/" class="nav-link rounded-button">Home</a>
+      <a href="{{ site.baseurl }}/pages/about" class="nav-link rounded-button">About</a>
+    </div>
+
+    <!-- Destra: Buy Me a Coffee -->
+    <div class="right-slot">
+      <a href="https://www.buymeacoffee.com/tuo_username" target="_blank" rel="noopener" class="buy-button">
+        ☕ Buy me a coffee
+      </a>
+    </div>
+
+  </div>
 </div>
+
 
 
 <style>
