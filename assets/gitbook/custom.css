@@ -420,38 +420,3 @@ html[data-theme="dark"] {
   z-index: 1;
   margin-bottom: 10px;
 }
-
-/* Nav links centrati */
-.nav-links-shiftable {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-/* Stile link */
-.nav-links-shiftable a {
-  color: #333;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 6px 12px;
-  border-radius: 5px;
-  transition: background 0.2s ease;
-}
-
-.nav-links-shiftable a:hover {
-  background-color: #ddd;
-}
-
-/* Buy me a coffee stile coerente */
-.nav-links-shiftable .buy-button {
-  background-color: #FFDD00;
-  color: #000;
-  font-weight: bold;
-}
-
-.nav-links-shiftable .buy-button:hover {
-  background-color: #e5c800;
-}
-
