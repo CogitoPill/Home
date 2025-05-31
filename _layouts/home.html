@@ -36,9 +36,9 @@
     <!-- Container per i link centrati -->
     <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
         <div class="nav-links-shiftable">
-        <a href="{{ site.baseurl }}/pages/contact" style="margin: -8px 10px; text-decoration: none; font-weight: bold; color: #333;" class="nav-link">Contact</a>
-        <a href="{{ site.baseurl }}/" style="margin: -8px 10px; text-decoration: none; font-weight: bold; color: #333;" class="nav-link">Home</a>
-        <a href="{{ site.baseurl }}/pages/about" style="margin: -8px 10px; text-decoration: none; font-weight: bold; color: #333;" class="nav-link">About</a>
+        <a href="{{ site.baseurl }}/pages/contact" style="margin: -8px 10px; text-decoration: none; font-weight: bold; color: #333;" class="nav-link rounded-button">Contact</a>
+        <a href="{{ site.baseurl }}/" style="margin: -8px 10px; text-decoration: none; font-weight: bold; color: #333;" class="nav-link rounded-button">Home</a>
+        <a href="{{ site.baseurl }}/pages/about" style="margin: -8px 10px; text-decoration: none; font-weight: bold; color: #333;" class="nav-link rounded-button">About</a>
         </div>
     </div>
          <div style="display: flex; gap: 10px; align-items: center;">
@@ -54,7 +54,25 @@
 </div>
 
 
+<style>
+    .rounded-button {
+      background-color: #007BFF; /* colore blu */
+      color: white;              /* testo bianco */
+      padding: 10px 20px;        /* spazio interno */
+      border: none;              /* senza bordo visibile */
+      border-radius: 25px;       /* bordi arrotondati */
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;           /* puntatore a mano */
+      text-decoration: none;     /* niente sottolineatura se <a> */
+      display: inline-block;
+      transition: background 0.3s ease;
+    }
 
+    .rounded-button:hover {
+      background-color: #0056b3; /* colore più scuro al passaggio */
+    }
+  </style>
 
                 
                 <div class="body-inner">
