@@ -319,8 +319,7 @@ html[data-theme="dark"] {
   right: 10px;
   z-index: 9999;
 }
-.buy-button,
-#theme-toggle {
+.buy-button {
   background-color: #222;
   color: white;
   border: none;
@@ -329,13 +328,14 @@ html[data-theme="dark"] {
   border-radius: 4px;
   cursor: pointer;
   text-decoration: none;
-    display: inline-block;
-      transition: background 0.3s ease;
+  display: inline-block;
+  transition: background-color 0.3s ease;
 }
-.buy-button:hover,
-#theme-toggle:hover {
+
+.buy-button:hover {
   background-color: #c9af04;
 }
+
 
 .custom-buttons {
   position: fixed;
