@@ -391,7 +391,7 @@ html[data-theme="dark"] {
   color: #333;
   font-weight: bold;
   font-size: 16px;
-      background-color: #007BFF; /* colore blu */
+  background-color: #007BFF; /* colore blu */
       color: white;              /* testo bianco */
       padding: 10px 20px;        /* spazio interno */
       border: none;              /* senza bordo visibile */
@@ -402,6 +402,9 @@ html[data-theme="dark"] {
       text-decoration: none;     /* niente sottolineatura se <a> */
       display: inline-block;
       transition: background 0.3s ease;
+}
+.nav-link:hover {
+  background-color: #0056b3;
 }
 
 /* Quando il menu è aperto (GitBook usa "with-summary") */
