@@ -390,12 +390,12 @@ html[data-theme="dark"] {
   text-decoration: none;
   color: #333;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   background-color: #007BFF; /* colore blu */
       color: white;              /* testo bianco */
-      padding: 10px 20px;        /* spazio interno */
+      padding: 5px 10px;        /* spazio interno */
       border: none;              /* senza bordo visibile */
-      border-radius: 25px;       /* bordi arrotondati */
+      border-radius: 20px;       /* bordi arrotondati */
       font-size: 16px;
       font-weight: bold;
       cursor: pointer;           /* puntatore a mano */
@@ -424,27 +424,3 @@ html[data-theme="dark"] {
     top: 0px; /* oppure 0px, regola in base alla posizione ideale */
   }
 }
-
-/* Rettangolo contenitore */
-.top-bar-container {
-  background-color: #f5f5f5;
-  padding: 10px 0;
-  border-bottom: 1px solid #ccc;
-  position: relative;
-  z-index: 1;
-  margin-bottom: 10px;
-}
-
- .rounded-button {
-      background-color: #007BFF; /* colore blu */
-      color: white;              /* testo bianco */
-      padding: 10px 20px;        /* spazio interno */
-      border: none;              /* senza bordo visibile */
-      border-radius: 25px;       /* bordi arrotondati */
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;           /* puntatore a mano */
-      text-decoration: none;     /* niente sottolineatura se <a> */
-      display: inline-block;
-      transition: background 0.3s ease;
-    }
