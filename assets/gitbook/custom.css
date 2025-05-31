@@ -393,10 +393,10 @@ html[data-theme="dark"] {
   font-size: 12px;
   background-color: #007BFF; /* colore blu */
       color: white;              /* testo bianco */
-      padding: 5px 10px;        /* spazio interno */
+      padding: 6px 10px;        /* spazio interno */
       border: none;              /* senza bordo visibile */
       border-radius: 20px;       /* bordi arrotondati */
-      font-size: 16px;
+      font-size: 12px;
       font-weight: bold;
       cursor: pointer;           /* puntatore a mano */
       text-decoration: none;     /* niente sottolineatura se <a> */
