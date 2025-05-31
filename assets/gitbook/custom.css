@@ -415,7 +415,7 @@ html[data-theme="dark"] {
 @media (max-width: 768px) {
   .nav-links-shiftable {
     font-size: 14px;
-    gap: 10px;
+    gap: 5px;
   }
 }
 
