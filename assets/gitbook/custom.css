@@ -382,7 +382,7 @@ html[data-theme="dark"] {
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-  gap: 10px;
+  gap: 5px;
   z-index: 10;
 }
 
