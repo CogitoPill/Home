@@ -390,7 +390,7 @@ html[data-theme="dark"] {
   text-decoration: none;
   color: #333;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   background-color: #007BFF; /* colore blu */
       color: white;              /* testo bianco */
       padding: 5px 10px;        /* spazio interno */
@@ -414,13 +414,13 @@ html[data-theme="dark"] {
 
 @media (max-width: 768px) {
   .nav-links-shiftable {
-    font-size: 14px;
+    font-size: 12px;
     gap: 5px;
   }
 }
 
 @media (max-width: 768px) {
   .nav-links-shiftable {
-    top: 0px; /* oppure 0px, regola in base alla posizione ideale */
+    top: -5px; /* oppure 0px, regola in base alla posizione ideale */
   }
 }
