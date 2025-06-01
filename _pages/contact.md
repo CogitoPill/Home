@@ -6,7 +6,20 @@ date: 2025-02-05
 layout: post
 ---
 
-<!-- Aggiungi questo link nel tuo <head> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 <style>
@@ -92,13 +105,13 @@ layout: post
       <div class="name">Davide Mura</div>
       <div class="name">(ShiroiShi)</div>
       <div class="social-icons">
-        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="mailto:daniele@example.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.instagram.com/_.davidemura._"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+        <a href="mailto:gontidavi@gmail.com"><i class="fas fa-envelope"></i></a>
       </div>
       <div class="other-links">
         <h4>Other Links</h4>
-        <a href="#">Link di prova</a>
+        <a href="https://linktr.ee/Vicarium_">My Videogames</a>
       </div>
     </div>
 
@@ -106,13 +119,13 @@ layout: post
       <div class="name">Gabriele Lai</div>
       <div class="name">(Gabrishin)</div>
       <div class="social-icons">
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="mailto:gabriele@example.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.instagram.com/gabrilai_"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+        <a href="mailto:gaioe8g@gmail.com"><i class="fas fa-envelope"></i></a>
       </div>
       <div class="other-links">
         <h4>Other Links</h4>
-        <a href="#">Link di prova</a>
+        <a href="#"></a>
       </div>
     </div>
 
@@ -120,13 +133,13 @@ layout: post
       <div class="name">Lorenzo Ragno</div>
       <div class="name">(Lory_Salamander)</div>
       <div class="social-icons">
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="mailto:lorenzo@example.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.instagram.com/lory_salamander"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+        <a href="mailto:lorysky0005@gmailcom"><i class="fas fa-envelope"></i></a>
       </div>
       <div class="other-links">
         <h4>Other Links</h4>
-        <a href="#">Link di prova</a>
+        <a href="#"></a>
       </div>
     </div>
   </div>
